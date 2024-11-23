@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "check": "@biomejs/biome check --write ./src"
+    "check": "@biomejs/biome check --write src"
   },
   "dependencies": {
     "next": "15.0.3",
