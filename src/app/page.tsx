@@ -1,8 +1,5 @@
+import WelcomePage from '@/contents/welcome/helloWorld.md';
+
 export default function Page() {
-  return (
-    <div>
-      <p>hello world</p>
-      <p className={'text-green-500'}>hello world</p>
-    </div>
-  );
+  return <WelcomePage />;
 }

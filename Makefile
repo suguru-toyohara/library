@@ -1,3 +1,3 @@
 .PHONY: check
 check:
-	@npx @biomejs/biome check --write ./src
+	@pnpm biome check --write ./src
