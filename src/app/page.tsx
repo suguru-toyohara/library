@@ -1,5 +1,9 @@
-import WelcomePage from '@/contents/welcome/helloWorld.md';
+import Link from 'next/link';
 
 export default function Page() {
-  return <WelcomePage />;
+  return (
+    <div>
+      <Link href={'/pages/helloWorld'}>記事</Link>
+    </div>
+  );
 }
